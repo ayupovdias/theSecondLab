@@ -1,0 +1,20 @@
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>An electronic shop</title>
+    <link rel="stylesheet" th:href="@{styles.css}">
+</head>
+<body>
+<h1>An electronic shop</h1>
+<center>
+<div class="outer">
+    <div class="inner" th:each="item :${items}">
+        <h1 th:text="${item.name}"></h1>
+        <p th:text="${item.description}"></p>
+        <h2 th:text="${item.price}+' $'"></h2>
+        <button>Details</button>
+
+    </div>
+</div>
+</center>
+</body>
+</html>

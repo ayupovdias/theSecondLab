@@ -1,0 +1,39 @@
+h1{
+    text-align:center;
+
+}
+.inner h1{
+    color:darkslateblue;
+
+}
+.inner{
+    width:300px;
+    display:inline-block;
+
+    padding-bottom:10px;
+    border-radius:10px;
+    background-color:powderblue;
+    margin:15px;
+}
+.outer{
+
+    width:89%;
+}
+p{
+
+}
+h2{
+    color:green;
+}
+button{
+    background-color:green;
+    color:white;
+    border:none;
+    border-radius:5px;
+    padding:7px;
+}
+button:hover{
+    text-decoration:underline;
+    background-color:white;
+    color:black;
+}
